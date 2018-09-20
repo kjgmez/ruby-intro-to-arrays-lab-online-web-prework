@@ -15,9 +15,10 @@ def third_element(arr)
 end
 
 def last_element (arr)
-  arr.last 
+  arr[-1]
 end
 
-def first_element_with_array_methods
-  
+def first_element_with_array_methods(arr)
+  arr.first 
 end 
+
